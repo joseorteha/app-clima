@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ajustes - App Clima</title>
+    <link rel="stylesheet" href="ajustes.css">
+    <!-- Incluir Font Awesome para los iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <!-- Menú de ajustes (icono de ajustes) -->
+    <div id="menu-ajustes">
+        <a href="index.html"><i class="fa fa-cogs"></i></a> <!-- Icono de ajustes -->
+    </div>
+
+    <div id="contenedor-ajustes">
+        <h1>Ajustes</h1>
+        
+        <div class="ajuste">
+            <label for="unidad-temperatura">Unidad de Temperatura:</label>
+            <select id="unidad-temperatura">
+                <option value="metric">Celsius (°C)</option>
+                <option value="imperial">Fahrenheit (°F)</option>
+                <option value="standard">Kelvin (K)</option>
+            </select>
+        </div>
+
+        <div class="ajuste">
+            <label for="unidad-viento">Unidad de Velocidad del Viento:</label>
+            <select id="unidad-viento">
+                <option value="metric">m/s</option>
+                <option value="imperial">mph</option>
+            </select>
+        </div>
+
+        <div class="ajuste">
+            <label for="contacto">Contacto:</label>
+            <p>Correo: contacto@climaapp.com</p>
+        </div>
+    </div>
+    
+    <script src="ajustes.js"></script>
+    <!-- Pie de página -->
+    <footer id="footer">
+        <div id="footer-contenido">
+            <p>&copy; 2024 App Clima. Todos los derechos reservados. Jose Ortega</p>
+            <div id="redes-sociales">
+                <a href="https://www.tiktok.com/@code_mastertik" target="_blank">
+                    <i class="fab fa-tiktok"></i> TikTok
+                </a>
+                <a href="mailto:joseortegahac@gmail.com" target="_blank">
+                    <i class="fas fa-envelope"></i> Correo
+                </a>
+                <a href="https://github.com/joseorteha" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+        <ul>
+            <li><a href="politica-privacidad.html">Política de Privacidad</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

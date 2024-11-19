@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>App Clima</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <!-- Menú de ajustes con icono -->
+<div id="menu-ajustes">
+    <a href="ajustes.html"><i class="fa fa-cogs"></i></a> <!-- Icono de ajustes -->
+</div>
+
+    
+        </a>
+    </div>
+    
+    <div id="contenedor-principal">
+        <!-- Encabezado con ubicación -->
+        <div id="encabezado">
+            <h1 id="ubicacion">Ciudad de México</h1>
+        </div>
+
+        <!-- Campo de búsqueda -->
+        <div id="busqueda">
+            <input type="text" id="ciudad-input" placeholder="Introduce una ciudad">
+            <button id="buscar-btn">Buscar</button>
+        </div>
+
+        <!-- Tarjeta principal: Temperatura y descripción -->
+        <div id="tarjeta-clima">
+            <h1 id="temperatura-valor">27°C</h1>
+            <h2 id="temperatura-descripcion">Soleado</h2>
+            <img id="icono-animado" src="animated/day.svg" alt="icono clima" width="100">
+        </div>
+
+        <!-- Información adicional -->
+        <div id="info-adicional">
+            <div class="info-box">
+                <h3>Viento</h3>
+                <p id="viento-velocidad">5 m/s</p>
+            </div>
+            <div class="info-box">
+                <h3>Máx / Mín</h3>
+                <p id="max-min">31°C / 15°C</p>
+            </div>
+        </div>
+
+        <!-- Pronóstico por días (próximos 5 días) -->
+        <div id="pronostico">
+            <!-- Se actualizarán los pronósticos aquí -->
+        </div>
+    </div>
+    <script src="app.js"></script>
+<!-- Footer -->
+<footer id="footer">
+    <div id="footer-contenido">
+        <p>&copy; 2024 App Clima. Todos los derechos reservados. Jose Ortega</p>
+        <div id="redes-sociales">
+            <a href="https://www.tiktok.com/@code_mastertik" target="_blank">
+                <i class="fab fa-tiktok"></i> TikTok
+            </a>
+            <a href="mailto:joseortegahac@gmail.com" target="_blank">
+                <i class="fas fa-envelope"></i> Correo
+            </a>
+            <a href="https://github.com/joseorteha" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
+    </div>
+    <ul>
+        <li><a href="politica-privacidad.html">Política de Privacidad</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+</footer>
+
+
+
+</body>
+</html>
